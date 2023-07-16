@@ -1,0 +1,27 @@
+{
+  "name": "mern-todo-api",
+  "version": "1.0.0",
+  "description": "To-Do list app developed using MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsunecha/ToDo.git"
+  },
+  "author": "Jatin Unecha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsunecha/ToDo/issues"
+  },
+  "homepage": "https://github.com/jsunecha/ToDo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
